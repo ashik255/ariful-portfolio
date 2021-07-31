@@ -1,0 +1,351 @@
+/* ----------apply css in body tag ------------ */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    background-color: rgb(215, 234, 240);
+}
+
+
+
+/* -----------------navigation bar desining----------------- */
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+/*----------------- designing logo ------------------- */
+#logo {
+    position: absolute;
+    left: 40px;
+    font-size: 21px;
+    font-family: cursive;
+    /* font-weight: 700px; */
+}
+
+#logo a {
+    font-weight: 700;
+}
+
+#logo-part-1 {
+    color: rgb(255, 166, 0);
+}
+
+#logo-part-2 {
+    color: rgb(5, 134, 194);
+}
+
+
+/* --------------designing first section  ----------------*/
+.first-section {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 50px 0px 0px 0px;
+}
+
+.first-section-left {
+    width: 30%;
+    padding-top: 40px;
+    /* border: 2px solid red; */
+}
+
+.first-section-left h1 {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 65px;
+    line-height: 21px;
+    word-spacing: 10px;
+}
+
+#greetings {
+    color: rgb(94, 91, 91);
+    text-shadow: 0px 0px 12px rgb(82, 82, 82);
+}
+
+#name {
+    color:coral;
+    text-shadow: 0px 0px 15px rgb(78, 78, 78);
+}
+
+#html-text-color {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(184, 0, 0);
+}
+
+.first-section-left p {
+    font-size: 17px;
+    width: 60%;
+    text-align: justify;
+    margin-top: 60px;
+    /* border: 1px solid; */
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 50px;
+}
+
+#css-text-color {
+    font-size: 20px;
+    font-weight: 600;
+
+    color: rgb(214, 139, 0);
+}
+
+#rock-color {
+    font-weight: 700;
+    color: rgb(17, 116, 197);
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 40px 10px 40px;
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(216, 57, 57, 0.849);
+    border-radius: 5px;
+    font-size: 14px;
+    /* width: 00px; */
+}
+
+.first-section-right {
+    width: 30%;
+    /* border: 2px solid; */
+    margin-right: 40px;
+}
+
+.first-section-right img {
+    width: 100%;
+}
+
+
+
+/*------------------ designig second section ------------------- */
+.second-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.second-section-image {
+    width: 40%;
+}
+
+.second-section-image img {
+    width: 100%;
+}
+
+.second-section-texts {
+    width: 38%;
+}
+
+.second-section-texts {
+    margin-top: -150px;
+}
+
+.second-section-texts p {
+    padding-bottom: 30px;
+}
+
+.fas {
+    padding: 0px 5px 0px 5px;
+}
+
+/*------------------ designig third section ------------------- */
+.third-section {
+    background-color: rgb(182, 182, 182);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 60px 0px;
+    /* border: 2px solid; */
+    /* width: 100%; */
+}
+
+.third-section-boxes {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.third-section-text {
+    padding: 10px 10px 25px 10px;
+    /* border: 1px solid; */
+    margin: 15px;
+}
+
+.third-section-text h1 {
+    font-family: 'Anton', sans-serif;
+    word-spacing: 10px;
+    font-size: 37px;
+    letter-spacing: 5px;
+}
+
+.third-section-text h1 span {
+    color: rgb(221, 96, 96);
+}
+
+.boxes {
+    background-color: rgb(218, 218, 218);
+    width: 350px;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 2px 2px 30px rgb(54, 54, 54);
+    padding: 15px 0px;
+}
+
+.boxes img {
+    width: 85%;
+}
+
+.boxes h2 {
+    color: rgb(18, 62, 131);
+}
+
+.boxes p {
+    width: 85%;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+/*------------------ designig fourth section ------------------- */
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 120px;
+    background-color: rgba(185, 185, 162, 0.801);
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.fourth-section h1 {
+    font-family: 'Anton', sans-serif;
+    /* word-spacing: 10px; */
+    font-size: 37px;
+    letter-spacing: 5px;
+    color: rgb(47, 136, 158);
+}
+
+.skills-all-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    width: 90%;
+}
+
+.skill-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    background-color: rgba(170, 170, 151, 0.801);
+    /* border: 1px solid; */
+    overflow: hidden;
+    padding: 30px 0px 60px 0px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 30px rgb(0, 0, 0);
+    /* box-shadow: 1px 1px 20px black; */
+}
+.skill-box img {
+
+    width: 85%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.skill-box p {
+    padding-top: 20px;
+    color: rgb(32, 32, 32);
+    width: 80%;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    /* font-family:serif; */
+}
+.sixth-section {
+    /* border: 1px solid; */
+    padding: 100px 0px 80px 0px;
+}
+
+.sixth-section-elements {
+    /* border: 5px solid rgb(73, 73, 45); */
+    height: 350px;
+    width: 70%;
+    margin: auto;
+    background-image: url("image/back.png");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sixth-section-elements h1 {
+    /* font-family: 'Anton', sans-serif; */
+    letter-spacing: 6px;
+    font-size: 30px;
+    color: white;
+}
+
+.sixth-section-elements a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px 20px 40px;
+    background: linear-gradient(90deg, rgb(191, 48, 204), rgb(185, 11, 78));
+    border-radius: 10px;
+}
+
+
+
+
+/*------------------ designig footer ------------------- */
+footer {
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* line-height: 10px; */
+}
+
+footer h3 {
+    /* border: 1px solid; */
+    color: rgb(7, 100, 57);
+    /* font-weight: 700; */
+}
+
+footer h1 {
+    /* border: 1px solid; */
+    color: rgb(194, 53, 18);
+}
+
+
+/*------------------ designig social icon here ------------------- */
+.social-icons a i {
+    font-size: 22px;
+    padding: 5px;
+    color: black;
+}
